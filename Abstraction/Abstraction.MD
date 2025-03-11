@@ -1,0 +1,11 @@
+- Encapsulation
+    - Putting properties and methods into related classes to keep objects concsie. 
+- Abstract class you cant instantiate. 
+  - This is useful when you want to enforce implementation of certain methods in the child classes.
+  - Like with `Anamal class` you will never have new instances of them, but would inherit from it. 
+  - abstract methods will need to be implemented in the child classes.
+  - non abstract methods can just use the default method. 
+- Interface
+   - all methods in an interface are abstract.
+   -  the difference is you can implement many interfaces but only inherit from one class.
+   - all properties in a interface are static and final. 
